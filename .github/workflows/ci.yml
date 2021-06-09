@@ -28,7 +28,7 @@ jobs:
         with:
           push: true
           build-args: GITHUB_SHA
-          tags: ekzhang/rustpad:latest
+          tags: linuxuserin/rustpad:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
